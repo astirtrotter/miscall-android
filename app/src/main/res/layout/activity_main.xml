@@ -11,12 +11,15 @@
         android:id="@+id/phonenumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="phone number"/>
+        android:inputType="phone"
+        android:hint="phone number"
+        android:imeOptions="actionDone"/>
 
     <Button
         android:id="@+id/check"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Check" />
+        android:text="Check"
+        android:onClick="check"/>
 
 </android.support.v7.widget.LinearLayoutCompat>
